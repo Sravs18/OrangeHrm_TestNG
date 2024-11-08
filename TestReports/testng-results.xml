@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-28T13:51:39 IST" name="OrangeHRM Test Suite" finished-at="2024-09-28T13:52:18 IST" duration-ms="39470">
+    <groups>
+    </groups>
+    <test started-at="2024-09-28T13:51:39 IST" name="Admin Login Tst with Valid credentials" finished-at="2024-09-28T13:51:48 IST" duration-ms="8558">
+      <class name="OrangeHRM.TestCases.AdminLoginTestWithValidCredentials">
+        <test-method signature="CheckAdminLogin(java.lang.String,java.lang.String)[pri:0, instance:OrangeHRM.TestCases.AdminLoginTestWithValidCredentials@6253c26]" started-at="2024-09-28T13:51:39 IST" name="CheckAdminLogin" finished-at="2024-09-28T13:51:48 IST" duration-ms="8443" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Qedge123!@#]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckAdminLogin -->
+      </class> <!-- OrangeHRM.TestCases.AdminLoginTestWithValidCredentials -->
+    </test> <!-- Admin Login Tst with Valid credentials -->
+    <test started-at="2024-09-28T13:51:48 IST" name="Admin Login With Invalid Credentials" finished-at="2024-09-28T13:51:49 IST" duration-ms="1652">
+      <class name="OrangeHRM.TestCases.AdminLoginTestWithInvalidCredentials">
+        <test-method signature="checkAdminLogin(java.lang.String,java.lang.String)[pri:0, instance:OrangeHRM.TestCases.AdminLoginTestWithInvalidCredentials@4a883b15]" started-at="2024-09-28T13:51:48 IST" name="checkAdminLogin" finished-at="2024-09-28T13:51:49 IST" duration-ms="1647" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xyz]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAdminLogin -->
+      </class> <!-- OrangeHRM.TestCases.AdminLoginTestWithInvalidCredentials -->
+    </test> <!-- Admin Login With Invalid Credentials -->
+    <test started-at="2024-09-28T13:51:49 IST" name="New Employee Registration" finished-at="2024-09-28T13:51:59 IST" duration-ms="9421">
+      <class name="OrangeHRM.TestCases.EmployeeRegTest">
+        <test-method is-config="true" signature="adminLogin()[pri:0, instance:OrangeHRM.TestCases.EmployeeRegTest@791f145a]" started-at="2024-09-28T13:51:49 IST" name="adminLogin" finished-at="2024-09-28T13:51:51 IST" duration-ms="1667" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminLogin -->
+        <test-method signature="checkempReg(java.lang.String,java.lang.String)[pri:0, instance:OrangeHRM.TestCases.EmployeeRegTest@791f145a]" started-at="2024-09-28T13:51:51 IST" name="checkempReg" finished-at="2024-09-28T13:51:57 IST" duration-ms="6386" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ramana]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[J]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkempReg -->
+        <test-method is-config="true" signature="adminLogout()[pri:0, instance:OrangeHRM.TestCases.EmployeeRegTest@791f145a]" started-at="2024-09-28T13:51:57 IST" name="adminLogout" finished-at="2024-09-28T13:51:59 IST" duration-ms="1363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminLogout -->
+      </class> <!-- OrangeHRM.TestCases.EmployeeRegTest -->
+    </test> <!-- New Employee Registration -->
+    <test started-at="2024-09-28T13:51:59 IST" name="User registration test" finished-at="2024-09-28T13:52:15 IST" duration-ms="16340">
+      <class name="OrangeHRM.TestCases.UserRegTest">
+        <test-method is-config="true" signature="adminLogin()[pri:0, instance:OrangeHRM.TestCases.UserRegTest@6340e5f0]" started-at="2024-09-28T13:51:59 IST" name="adminLogin" finished-at="2024-09-28T13:52:01 IST" duration-ms="1757" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminLogin -->
+        <test-method signature="chkUserReg(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:OrangeHRM.TestCases.UserRegTest@6340e5f0]" started-at="2024-09-28T13:52:01 IST" name="chkUserReg" finished-at="2024-09-28T13:52:14 IST" duration-ms="13235" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ajay k]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sravs7600]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sravlu244!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chkUserReg -->
+        <test-method is-config="true" signature="adminLogout()[pri:0, instance:OrangeHRM.TestCases.UserRegTest@6340e5f0]" started-at="2024-09-28T13:52:14 IST" name="adminLogout" finished-at="2024-09-28T13:52:15 IST" duration-ms="1335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminLogout -->
+      </class> <!-- OrangeHRM.TestCases.UserRegTest -->
+    </test> <!-- User registration test -->
+    <test started-at="2024-09-28T13:52:15 IST" name="Employee login Test" finished-at="2024-09-28T13:52:18 IST" duration-ms="3336">
+      <class name="OrangeHRM.TestCases.AdminLoginTestWithInvalidCredentials">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:OrangeHRM.TestCases.AdminLoginTestWithInvalidCredentials@4a883b15]" started-at="2024-09-28T13:51:34 IST" name="launchApp" finished-at="2024-09-28T13:51:39 IST" duration-ms="4499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:OrangeHRM.TestCases.AdminLoginTestWithInvalidCredentials@4a883b15]" started-at="2024-09-28T13:52:18 IST" name="closeApp" finished-at="2024-09-28T13:52:19 IST" duration-ms="813" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- OrangeHRM.TestCases.AdminLoginTestWithInvalidCredentials -->
+      <class name="OrangeHRM.TestCases.EmployeeLoginTest">
+        <test-method is-config="true" signature="EmployeeLogin()[pri:0, instance:OrangeHRM.TestCases.EmployeeLoginTest@368247b9]" started-at="2024-09-28T13:52:15 IST" name="EmployeeLogin" finished-at="2024-09-28T13:52:17 IST" duration-ms="1832" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EmployeeLogin -->
+        <test-method signature="chkEmployeeLogin()[pri:0, instance:OrangeHRM.TestCases.EmployeeLoginTest@368247b9]" started-at="2024-09-28T13:52:17 IST" name="chkEmployeeLogin" finished-at="2024-09-28T13:52:17 IST" duration-ms="63" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chkEmployeeLogin -->
+        <test-method is-config="true" signature="EmployeeLogout()[pri:0, instance:OrangeHRM.TestCases.EmployeeLoginTest@368247b9]" started-at="2024-09-28T13:52:17 IST" name="EmployeeLogout" finished-at="2024-09-28T13:52:18 IST" duration-ms="1438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EmployeeLogout -->
+      </class> <!-- OrangeHRM.TestCases.EmployeeLoginTest -->
+    </test> <!-- Employee login Test -->
+  </suite> <!-- OrangeHRM Test Suite -->
+</testng-results>

@@ -1,0 +1,51 @@
+
+<suite name="OrangeHRM Test Suite">
+
+<test name="Admin Login Tst with Valid credentials">
+<parameter name="adminuid" value="Admin"></parameter>
+<parameter name="adminpwd" value="Qedge123!@#"></parameter>
+	<classes>
+		<class name="OrangeHRM.TestCases.AdminLoginTestWithValidCredentials"></class>
+	</classes>
+</test>
+
+<test name="Admin Login With Invalid Credentials">
+<parameter name="uid" value="Admin"></parameter>
+<parameter name="pwd" value="xyz"></parameter>
+
+<classes>
+<class name="OrangeHRM.TestCases.AdminLoginTestWithInvalidCredentials"></class>
+</classes>
+</test>
+
+<test name="New Employee Registration">
+<parameter name="fname" value="Ramana"></parameter>
+<parameter name="lname" value="J"></parameter>
+<classes>
+<class name="OrangeHRM.TestCases.EmployeeRegTest">
+</class>
+</classes>
+</test>
+
+<test name="User registration test">
+<parameter name="ename" value="Ajay k"></parameter>
+<parameter name="uname" value="sravs7600"></parameter>
+<parameter name="pwd" value="Sravlu244!"></parameter>
+
+<classes>
+<class name="OrangeHRM.TestCases.UserRegTest"></class>
+</classes>
+</test>
+
+ <test name="Employee login Test">
+<parameter name="uname" value="sravs7600"></parameter>
+<parameter name="pwd" value="Sravlu244!"></parameter>
+<classes>
+<class name="OrangeHRM.TestCases.EmployeeLoginTest"></class>
+
+</classes>
+
+</test> 
+
+
+</suite>
